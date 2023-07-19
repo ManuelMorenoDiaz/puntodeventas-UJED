@@ -1,0 +1,584 @@
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+nav{
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #B11830 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.logoF{
+    height: 80%;
+}
+nav>div>img{
+    height: 30px;
+}
+header>nav>div>a{
+    text-decoration: none;
+    color: white;
+}
+.categories{
+    height: 30px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+.buscador{
+    display: flex;
+}
+.buscador>input{
+    width: 400px;
+    border-radius: 5px 0 0 5px;
+}
+.buscar{
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 5px 5px 0;
+    width: 40px;
+}
+.buscar >img{
+    width: 90%;
+    height: 90%;
+}
+.usuario{
+    border-left: 2px solid white;
+    padding-left: 5px;
+}
+
+.categories>div>a{
+    color: white;
+    text-decoration: none;
+}
+
+.carousel{
+    height: 250px;
+}
+.img-car>div>img{
+    height: 250px;
+}
+
+
+.categorias{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid blue; */
+    margin: 10px ;
+}
+.categorias > .sub{
+    margin-left: 5px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.targetaP{
+    background-color: rgb(236, 236, 236);
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 290px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.targetaP > img{
+    margin-top: 5px;
+    width: 90%;
+}
+.targetaP>p{
+    font-size: 20px;
+    font-weight: 1000;
+    color: #B11830;
+}
+
+
+
+/* categoria */
+.categoria{
+    height: 130px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/Banners/Banners/75152B\ \(1920\ -\ 200\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(219, 219, 219);
+}
+.categoria>div{
+    /* border: 2px solid blue; */
+    width: 40%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    align-content: flex-end;
+}
+.categoria>div>h2{
+    /* border: 2px solid yellow; */
+    margin-left: 20px;
+}
+
+
+.cat-top{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin: 0 20px;
+    border-bottom: 2px solid black;
+}
+
+.cat-bot{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.cat-bot .part-izq{
+    /* border: 2px solid blue; */
+    width: auto;
+}
+
+.cat-bot .part-izq>div{
+    border: 2px solid #ADADAD;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.cat-bot .part-der{
+    /* border: 2px solid green; */
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.rango{
+    display: flex;
+    justify-content: space-around;
+}
+.rango > input{
+    width: 40%;
+    text-align: center;
+}
+
+.filtro>button{
+    background-color: #B11830;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+    /* border: 2px solid red; */
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E2E2E;
+    color: white;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+footer>.prim{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+footer>.prim>a{
+    text-decoration: none;
+    color: white;
+}
+footer>.sec{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.redes{
+    /* border: 2px solid blue; */
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes>img{
+    width: 40px;
+    height: 100%;
+}
+
+footer>.ter>img{
+    height: 50px;
+    margin: 0 10px;
+}
+
+
+
+/* DIRECCIONES */
+.main-dir{
+    height: 60vh;
+    min-height: 60vh;
+}
+main>.dir-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 40px 0;
+}
+
+main>.dir-top>button{
+    background-color: #19B450;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    width: auto;
+}
+main>.dir-top>button>img{
+    height: 70%;
+}
+
+main>.dir-bot{
+    display: flex;
+    justify-content: flex-start;
+}
+main>.dir-bot>.card-dir{
+    border: 2px solid #2E2E2E;
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+main>.dir-bot>.card-dir>.opt{
+    display: flex;
+    justify-content: center;
+}
+main>.dir-bot>.card-dir>.opt>a{
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+
+
+
+/* PEDIDOS */
+.main-ped{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    padding: 20px;
+    min-height: 60vh;
+    height: auto;
+}
+
+.main-ped>section{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-ped>section>.card-ped{
+    border: 2px solid #6C757D;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.main-ped>section>.card-ped>.top{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.main-ped>section>.card-ped>.bot{
+    border-top: 2px solid #6C757D;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.main-ped>section>.card-ped>.bot>.dat{
+    /* border: 2px solid green; */
+    display: flex;
+}
+.main-ped>section>.card-ped>.bot>.dat>img{
+    width: 250px;
+    margin-right: 20px;
+}
+
+.main-ped>section>.card-ped>.bot>.but{
+    /* border: 2px solid green; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-ped>section>.card-ped>.bot>.but>button{
+    background-color: #087990;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: white;
+}
+
+
+
+
+/* PRODUCTO */
+.main-prod{
+    margin: 30px 0;
+}
+.top{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.contenedor {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .carru{
+    width: 50%;
+  }
+  .part1 {
+    position: relative;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-right: 20px;
+
+  }
+  
+  .part2 {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Centra verticalmente las flechas */
+    width: 40px; /* Ajusta el ancho de las flechas según sea necesario */
+    height: 40px; /* Ajusta la altura de las flechas según sea necesario */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    padding: 8px; /* Ajusta el relleno interno de las flechas según sea necesario */
+  }
+  
+  .prev {
+    left: 0;
+    margin-left: 10px; /* Ajusta el margen izquierdo para la flecha previa */
+  }
+  
+  .next {
+    right: 0;
+    margin-right: 10px; /* Ajusta el margen derecho para la flecha siguiente */
+  }
+
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .img-pro {
+    height: 500px;
+  }
+  
+  .img-row-pro>img {
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 10px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  .demo {
+    opacity: 0.6;
+    height: auto;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  .desc{
+    /* border: 2px solid rgb(0, 0, 0); */
+    background-color: #c7c6c6;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+    border-radius: 10px;
+  }
+  .desc>h3{
+    color:#B11830 ;
+    font-weight: 700;
+  }
+  .desc>select{
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: #B11830;
+    color: white;
+    text-align: center;
+  }
+  .desc>p{
+    font-size: 20px;
+  }
+  .desc>.color-pro{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .desc>.color-pro>img{
+    height: 70px;
+    border-radius: 3px;
+  }
+  .desc>.color-pro>img:hover{
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .desc>.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .desc>.buttons>button{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+  }
+  .desc>.buttons>button:hover{
+    border: 2px solid #fdfdfd;
+
+  }
+  .desc>.buttons>button:first-child{
+    background-color: #087990;
+    color: white;
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .desc>.buttons>button:nth-child(2){
+    background-color: #08799037;
+    font-size: 20px;
+    color:#087990 ;
+
+  }
+  .desc>.buttons>button>img{
+    height: 30px;
+  }
+
+
+  .bot{
+    margin-top: 30px;
+    /* border: 2px solid rgb(15, 0, 128); */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.bot>.descripcion{
+    width: 50%;
+}
+.bot>.descripcion>p{
+    text-align: justify;
+}
+
+.bot>.tallas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7c6c6;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px 0;
+
+}
+.bot>.tallas>img{
+    width: 70%;
+}
