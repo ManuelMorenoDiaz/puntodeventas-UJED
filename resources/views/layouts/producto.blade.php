@@ -61,8 +61,8 @@
                 </div>
                 <div class="buttons">
                     <button>Comprar</button>
-                    <button>Agregar al Carrito
-                        <img src="../../img/shopping.svg" alt="">
+                    <button class="addCar">Agregar al Carrito
+                        <img src="../resources/img/shopping.svg" alt="">
                     </button>
                 </div>
               </div>

@@ -14,7 +14,7 @@
       </div>
       <div class="right-side">
         <h2>¡Registrate!</h2>
-        <form>
+        <form action="{{url('inicio')}}" method="get">
           <div class="input-log">
             <input type="text" name="nombre" placeholder="Nombre" />
           </div>
@@ -35,6 +35,7 @@
           </div>
           <input type="submit" value="Registrate" >
         </form>
+        <a href="{{url('/')}}" class="aL">Ya tengo una cuenta</a>
 
         <div class="logos">
           <img src="../resources/img/Logos (2)/proujed.png" alt="">

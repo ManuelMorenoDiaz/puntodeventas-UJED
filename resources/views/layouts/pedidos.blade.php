@@ -52,7 +52,7 @@
                     <h5>Fecha de Entrega</h5>
                     <p>7 de junio de 2023</p>
                 </div>
-                <div class="dir">
+                <div class="dire">
                     <h5>Direccion</h5>
                     <p>C. Constitución 404, Zona Centro, 34000 Durango, Dgo.</p>
                 </div>

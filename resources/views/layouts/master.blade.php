@@ -20,36 +20,97 @@
 
 <body>
   <header>
-    <nav>
-        <img src="../resources/img/Logos (2)/Fundacion-blanco-horizontal.png" alt="" class="logoF">
-        <div class="buscador">
-            <input type="text" placeholder="Buscar">
-            <div class="buscar center">
-                <img src="../resources/img/search.svg" alt="">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse pooo" id="navbarNav">
+            <img src="../resources/img/Logos (2)/Fundacion-blanco-horizontal.png" alt="" class="logoF">
+            <div class="buscador">
+                <input type="text" placeholder="Buscar">
+                <div class="buscar center">
+                    <img src="../resources/img/search.svg" alt="">
+                </div>
+            </div>
+            <div class="carrito">
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Carrito</a>
+                <img src="../resources/img/shopping.svg" alt="">
+            </div>
+            <div class="direccion">
+                <a href="{{url('direcciones')}}" ">Direccion</a>
+                <img src="../resources/img/distance.svg" alt="">
+            </div>
+            <div class="pedidos">
+                <a href="{{url('pedidos')}}">Pedidos</a>
+                <img src="../resources/img/box.svg" alt="">
+            </div>
+            <div class="usuario">
+                <a href="{{url('/')}}">Hola, identificate</a>
+                <img src="../resources/img/account.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Button trigger modal -->
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Añadimos la clase "modal-lg" para un ancho más grande -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">Carrito de Compras</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="productosCar">
+                    <div class="cardProdu">
+                        <div class="imgP">
+                            <img src="https://st.depositphotos.com/1372263/4280/i/450/depositphotos_42800789-stock-photo-black-polo-shirt-on-a.jpg" alt="">
+                        </div>
+                        <div class="det">
+                            <h4>Camiseta Polo</h4>
+                            <p>Talla: CH</p>
+                            <p>Color: negra</p>
+                            <div class="cant">
+                                <button>
+                                    <img src="../resources/img/subtract.svg" alt="">
+                                </button>
+                                <input type="text">
+                                <button>
+                                    <img src="../resources/img/add.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="opt">
+                            <img src="../resources/img/delete.svg" alt="">
+                            <h3>$499</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-foote">
+                <div class="subtotal">
+                    <h5>Subtotal</h5>
+                    <p>$499</p>
+                </div>
+                <div class="total">
+                    <h2>Total</h2>
+                    <p>$499</p>
+                </div>
+                <button type="button" class="btn">Continuar Compra</button>
             </div>
         </div>
-        <div class="carrito">
-            <a href="">Carrito</a>
-            <img src="../resources/img/shopping.svg" alt="">
-        </div>
-        <div class="direccion">
-            <a href="">Direccion</a>
-            <img src="../resources/img/distance.svg" alt="">
-        </div>
-        <div class="pedidos">
-            <a href="">pedidos</a>
-            <img src="../resources/img/box.svg" alt="">
-        </div>
-        <div class="usuario">
-            <a href="">Hola, identificate</a>
-            <img src="../resources/img/account.svg" alt="">
-        </div>
-    </nav>
+    </div>
+</div>
+
+
     <div class="categories">
-        <div><a href="">Ropa</a></div>
-        <div><a href="">Oficina</a></div>
-        <div><a href="">Accesorios</a></div>
-        <div><a href="">Botellas y Termos</a></div>
+        <div><a href="{{url('categoria')}}" ">Ropa</a></div>
+        <div><a href="{{url('categoria')}}">Oficina</a></div>
+        <div><a href="{{url('categoria')}}">Accesorios</a></div>
+        <div><a href="{{url('categoria')}}">Botellas y Termos</a></div>
     </div>
   </header>
 

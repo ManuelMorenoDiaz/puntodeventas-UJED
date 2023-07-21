@@ -2,7 +2,10 @@ body{
   margin: 0;
   padding: 0;
 }
-
+.aL{
+    color: red;
+    margin-top: 20px;
+}
 /* Estilos para el contenedor principal */
 .container-sides {
   display: flex;

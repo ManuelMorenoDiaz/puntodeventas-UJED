@@ -13,7 +13,7 @@
         <h1>Tienda en Linea</h1>
       </div>
       <div class="right-side">
-        <form>
+        <form action="{{url('inicio')}}" method="get">
           <div class="input-log">
             <!-- Aqui va el icono de usuario -->
             <input type="email" name="email" placeholder=" Correo electrónico" />
@@ -24,7 +24,7 @@
           </div>
           <input type="submit" value="Iniciar sesión" >
         </form>
-        <button type="button">¿Olvidaste tu contraseña?</button>
+        <a href="{{url('registro')}}">¿Crear una Cuenta?</a>
       </div>
     </div>
   </body>

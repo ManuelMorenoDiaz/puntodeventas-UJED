@@ -17,7 +17,7 @@
                 <b>Numero de Telefono:</b>
                 <p>618 166 9573</p>
             </div>
-            <div class="opt">
+            <div class="opt2">
                 <a href="">Editar</a>
                 <a href="">Eliminar</a>
             </div>
@@ -29,7 +29,7 @@
                 <b>Numero de Telefono:</b>
                 <p>618 166 9573</p>
             </div>
-            <div class="opt">
+            <div class="opt2">
                 <a href="">Editar</a>
                 <a href="">Eliminar</a>
             </div>
